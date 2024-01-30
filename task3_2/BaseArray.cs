@@ -8,28 +8,27 @@ namespace task3_2
 {
     public abstract class BaseArray
     {
-        //
-        // Сводка:
-        //     Заполнение массива целыми числами
+        /// <summary>
+        /// Заполнение массива целыми числами
+        /// </summary>     
         public abstract void GetIntValues();
 
 
-        //
-        // Сводка:
-        //     Заполнение массива случайными числами
+        /// <summary>
+        /// Заполнение массива случайными числами
+        /// </summary>     
         public abstract void GetRandomValues();
 
-        //
-        // Сводка:
-        //     Выводит на экран массив
+        /// <summary>
+        /// Выводит на экран массив
+        /// </summary>    
         public abstract void PrintArray();
 
-        //
-        // Сводка:
-        //     Считает среднее значение массива
-        //
-        // Возврат:
-        //     Дробное число, сумма, поделенная на количество элементов
+  
+        /// <summary>
+        /// Считает среднее значение массива
+        /// </summary>
+        /// <returns>Дробное число, сумма, поделенная на количество элементов</returns>
         public abstract double AverageValue();
     }
 

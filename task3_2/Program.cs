@@ -19,7 +19,7 @@ namespace task3_2
 
             SteppedArray five = new SteppedArray(4);
             BaseArray six = new SteppedArray(5);
-
+  
             BaseArray[] baseArrays = new BaseArray[6]
             {
                 one, two, three, four, five, six
@@ -27,8 +27,8 @@ namespace task3_2
 
             foreach(BaseArray item in baseArrays)
             {
-                Console.WriteLine($"Среднее значение {item.GetType()} массива {item.AverageValue()}");
-                Console.WriteLine($"Элементы массива {item.GetType()}");
+                Console.WriteLine($"Среднее значение {item.GetType()} массива {item.AverageValue()}\n");
+                Console.WriteLine($"Элементы массива {item.GetType()}\n");
                 item.PrintArray();
             }
             Console.ReadLine();

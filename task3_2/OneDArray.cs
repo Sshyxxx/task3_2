@@ -11,8 +11,6 @@ namespace task3_2
         private int[] _array;
         private int _size;
 
-        public int[] Array { get { return _array; } }
-
         public OneDArray(int size, bool isUser = false)
         {
             _size = size;
