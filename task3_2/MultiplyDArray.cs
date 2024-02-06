@@ -70,7 +70,7 @@ namespace task3_2
             }
         }
 
-        public override void PrintArray()
+        public override void Print()
         {
             int rows = _array.GetLength(0);
             int columns = _array.GetLength(1);

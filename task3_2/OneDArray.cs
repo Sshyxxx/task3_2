@@ -57,7 +57,7 @@ namespace task3_2
             };
         }
 
-        public override void PrintArray()
+        public override void Print()
         {
             foreach (int i in _array)
             {
@@ -65,7 +65,6 @@ namespace task3_2
             }
             Console.WriteLine();
         }
-
 
     }
 

@@ -70,7 +70,7 @@ namespace task3_2
             }
         }
 
-        public override void PrintArray()
+        public override void Print()
         {
             for (int i = 0; i < _array.Length; i++)
             {
